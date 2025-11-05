@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "postinstall": "echo \"node_modules installed\"",
+    "test": "vitest --run --coverage"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,8 @@
     "url": "https://github.com/himanshusinghs/ga-check/issues"
   },
   "homepage": "https://github.com/himanshusinghs/ga-check#readme",
-  "dependencies": {
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.0.7",
     "vitest": "^4.0.7"
   }
 }

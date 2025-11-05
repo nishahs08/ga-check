@@ -12,5 +12,9 @@ describe("twoSum", () => {
     expect(() => twoSum(undefined)).toThrowError(
       "Not all numbers are of type number"
     );
+
+    expect(() => twoSum(null)).toThrowError(
+      "Not all numbers are of type number"
+    );
   });
 });

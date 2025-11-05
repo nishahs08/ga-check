@@ -1,0 +1,23 @@
+{
+  "name": "ga-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshusinghs/ga-check.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshusinghs/ga-check/issues"
+  },
+  "homepage": "https://github.com/himanshusinghs/ga-check#readme",
+  "dependencies": {
+    "vitest": "^4.0.7"
+  }
+}
